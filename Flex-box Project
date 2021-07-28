@@ -1,0 +1,63 @@
+<!DOCTYPE html> <!--located at the top,signals the browser about HTML5 documen -->
+<html lang="en"><!--holds the complete html document using english language.-->
+<head>
+    <!--Holds information about the page like little,metetags,keywords,css style.js file,etc-->
+    <meta charset="utf-8"> <!--specifying the UTF-8 character encoding used by this document-->
+    <link ref="shortcut icon" href="../assets/fav.png"> <!--Favicons-->
+    <title> My test page</title> <!--This sets the title of your page that appears in the tab-->
+    <style>
+        html {
+            font-size: 14px;
+            font-family: 'open Sans', sans-serif;
+        }
+        html {
+            background-color: #00539f;
+        }
+        body {
+            width: 600px;
+            margin: 0 auto;
+            background-color: #FF9500;
+            padding: 0 20px 20px 20px;
+            border: 5px solid black;
+        }
+        h1 {
+            font-size: 60px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            padding: 20px 0;
+            color: #00539f;
+            text-shadow: 3px 3px 1px black;
+        }
+        img {
+            display: black;
+            margin: 0 auto;
+        }
+        p, li {
+            font-size: 16px;
+            line-height: 2;
+            letter-spacing: 1px;
+        }
+
+    </style>
+</head>
+<!--HTML Body includes elements like text,image,video,playable audio tracks,or whatever else.-->
+<body> <!--This contains all the content that you want to show to web users on their visit-->
+    <h1>Bridgelabz is cool</h1> <!--Headings tag can be from h1----h6-->
+    <img src="bridgelabimage.jpg" alt="Hover Text."width="25%"> <!--Image Tag, display width of 25%-->
+    <p>At BridgeLabz,we're a techie community of</p> <!--Paragraph Tag-->
+    <ul><!--List Tag Ordered List <ol> or Unordered List <ul> -->
+        <li>technologists</li> <!--List Item-->
+        <li>thinkers</li>
+        <li>builders</li>
+    </ul>
+    <p>Working together to keep the Tech Employability of Engineers alive and accessible,
+        so Tech Companies worldwide can get contributors and creators for Technology Solutions.
+        We believe this act of human collaboration across an employability platform is essential
+        to individual growth and our collective future.</p>
+    
+   <p>To know about us,visit <a hrc="https://www.bridgelabz.com/">BridgeLabz</a><!--Anchor Tag-->
+      to learn even more about our mission i.e. <strong>Employability to all</strong></p><!--Bold String Tag-->
+</body>
+</html>
